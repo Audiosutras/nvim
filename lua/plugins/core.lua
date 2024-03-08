@@ -1,0 +1,11 @@
+return {
+  -- colorschemes
+  { "projek0n/github-nvim-theme" },
+
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "github_dark_high_contrast",
+    },
+  },
+}
