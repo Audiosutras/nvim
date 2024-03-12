@@ -8,7 +8,7 @@ return {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
       window = {
-        position = "float",
+        position = "left",
       },
       filesystem = {
         filtered_items = {
