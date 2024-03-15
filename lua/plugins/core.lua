@@ -3,7 +3,7 @@ return {
   { "nvim-tree/nvim-web-devicons", lazy = true },
   -- colorschemes
   { "projek0n/github-nvim-theme" },
-  { "pineapplegiant/spaceduck" },
+  { "rebelot/kanagawa.nvim" },
   -- Neotree additional configuration
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -29,7 +29,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "spaceduck",
+      colorscheme = "kanagawa-wave",
     },
   },
 }
