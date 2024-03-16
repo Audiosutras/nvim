@@ -3,7 +3,8 @@ return {
   { "nvim-tree/nvim-web-devicons", lazy = true },
   -- colorschemes
   { "projek0n/github-nvim-theme" },
-  { "rebelot/kanagawa.nvim" },
+  -- { "rebelot/kanagawa.nvim" },
+  { "xiyaowong/transparent.nvim" },
   -- Neotree additional configuration
   {
     "nvim-neo-tree/neo-tree.nvim",
@@ -29,7 +30,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "kanagawa-wave",
+      colorscheme = "github_dark_default",
     },
   },
 }
