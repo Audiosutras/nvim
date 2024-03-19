@@ -2,8 +2,8 @@ return {
   -- icons
   { "nvim-tree/nvim-web-devicons", lazy = true },
   -- colorschemes
-  { "projek0n/github-nvim-theme" },
-  -- { "rebelot/kanagawa.nvim" },
+  { "EdenEast/nightfox.nvim" },
+  -- transparency plugin for transparent backgrounds
   { "xiyaowong/transparent.nvim" },
   -- Neotree additional configuration
   {
@@ -30,7 +30,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "github_dark_default",
+      colorscheme = "carbonfox",
     },
   },
 }
