@@ -4,7 +4,9 @@ return {
   -- colorschemes
   { "EdenEast/nightfox.nvim" },
   -- transparency plugin for transparent backgrounds
-  { "xiyaowong/transparent.nvim" },
+  { "xiyaowong/transparent.nvim", lazy = false, opts = {
+    extra_groups = { "NeoTreeNormal" },
+  } },
   -- Neotree additional configuration
   {
     "nvim-neo-tree/neo-tree.nvim",
