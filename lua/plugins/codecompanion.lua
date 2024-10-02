@@ -14,28 +14,28 @@ return {
     keys = {
       {
         mode = { "n" },
-        "<C-a>",
+        "<C-c>",
         "<cmd>CodeCompanionActions<cr>",
         { noremap = true, silent = true },
         desc = "Code Companion Actions",
       },
       {
         mode = { "v" },
-        "<C-a>",
+        "<C-c>",
         "<cmd>CodeCompanionActions<cr>",
         { noremap = true, silent = true },
         desc = "Code Companion Actions",
       },
       {
         mode = { "n" },
-        "<Leader>a",
+        "<Leader>cc",
         "<cmd>CodeCompanionChat Toggle<cr>",
         { noremap = true, silent = true },
         desc = "Code Companion Chat",
       },
       {
         mode = { "v" },
-        "<Leader>a",
+        "<Leader>cc",
         "<cmd>CodeCompanionChat Toggle<cr>",
         { noremap = true, silent = true },
         desc = "Code Companion Chat",
