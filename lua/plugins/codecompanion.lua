@@ -67,6 +67,7 @@ return {
         ollama = function()
           return require("codecompanion.adapters").extend("ollama", {
             schema = {
+              -- https://ollama.com/library
               model = {
                 default = "stable-code:latest",
               },
