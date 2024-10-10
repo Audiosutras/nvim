@@ -11,8 +11,7 @@
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.lang.yaml",
     "lazyvim.plugins.extras.linting.eslint",
-    "lazyvim.plugins.extras.util.gitui",
-    "lazyvim.plugins.extras.vscode"
+    "lazyvim.plugins.extras.util.gitui"
   ],
   "news": {
     "NEWS.md": "6520"
